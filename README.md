@@ -8,7 +8,7 @@ from the server.
 1. Clone this repository to your local machine.
 2. Open a terminal and navigate to the root of the project directory.
 3. Run the following command to install the dependencies: `npm install`.
-4. To get the server running, run this command: 
+4. To get the server running, run this command; cd bot-battlr: 
     `json-server --watch db.json --port 8001`.
 5. Open another terminal and run this command `npm start` to get the App running.
 
