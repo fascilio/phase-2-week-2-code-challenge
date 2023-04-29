@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bot-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.bot-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.bot-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bot-card button {
+  margin-top: 10px;
+}
+.your-bot-army {
+  background-color: rgb(160, 189, 31);
+}
+.discharge {
+  color: red;
+  margin-left: 10px;
+}
+.your-bot-army .bot-card {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  background-color: aliceblue;
+}
+
+.your-bot-army .bot-card img {
+  width: 100%;
+  height: auto;
+}
